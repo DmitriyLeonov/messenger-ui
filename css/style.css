@@ -81,7 +81,7 @@ body{
 
 #conversation-list input{
     background: #777;
-    color: #000000;
+    color: #686262;
     outline: none;
     font-weight: bold;
     border-radius: 2px;
@@ -123,12 +123,13 @@ body{
     grid-row: span 2;
     height: 40px;
     width: 40px;
+    object-fit: cover;
     border-radius: 100%;
 }
 
 .title-text{
     font-weight: bold;
-    color: #000000;
+    color: #686262;
     padding-left: 5px;
     white-space: nowrap;
     overflow: hidden;
@@ -232,6 +233,7 @@ body{
 
 .message-text{
     padding: 9px 14px;
+    color: #686262;
     font-size: 1.4rem;
     margin-bottom: 5px;
     word-wrap: break-word;
@@ -262,6 +264,7 @@ body{
     grid-row: span 2;
     height: 40px;
     width: 40px;
+    object-fit: cover;
     border-radius: 100%;
 }
 
